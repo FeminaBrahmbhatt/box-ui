@@ -1,3 +1,4 @@
+import React from 'react'
 import { IButtonItem } from "../@interfaces";
 import { FiCircle, FiList, FiGrid } from "react-icons/fi";
 
@@ -10,10 +11,10 @@ export const options1: IButtonItem[] = [
 export const options2: IButtonItem[] = [
   {
     value: "first",
-    content: (
+    content:  (
       <>
-        <FiCircle size="10" className="mr-2 center" />
-          First
+        <span><FiCircle size={20} className='mr-2'/></span>
+        First
       </>
     ),
   },
@@ -21,8 +22,8 @@ export const options2: IButtonItem[] = [
     value: "second",
     content: (
       <>
-        <FiCircle size="10" className="mr-2 center" />
-          Second
+        <span><FiCircle size={20} className='mr-2'/></span>
+        Second
       </>
     ),
   },
@@ -30,14 +31,14 @@ export const options2: IButtonItem[] = [
     value: "third",
     content: (
       <>
-        <FiCircle size="10" className="mr-2 center" />
-          Third
+        <span><FiCircle size={20} className='mr-2'/></span>
+        Third
       </>
     ),
   },
 ];
 
-export const options3 = [
+export const options3: IButtonItem[] = [
   {value:'list', content:<FiList size={20}/>},
   {value:'grid', content:<FiGrid size={20}/>},
 ]

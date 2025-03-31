@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: "class", // Ensure this is set
+  darkMode: "class",
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
     "./src/styles/**/*.css",
-    "./.storybook/**/*.{js,jsx,ts,tsx,mdx}" // Add Storybook directories
+    "./.storybook/**/*.{js,jsx,ts,tsx,mdx}"
   ],  theme: {
     colors:{
       "transparent": "transparent",

@@ -19,7 +19,7 @@ export const ButtonGroup: FC<ButtonGroupProps> = ({
         <button
           key={option.value}
           className={classNames(
-            "inline-flex, whitespace-nowrap items-center h-10 px-4 font-medium text-sm focus:outline-none hover:bg-gray-50 dark:hover:bg-gray-700 text-gray-700 dark:text-white border border-gray-300 dark:border-gray-500",
+            "inline-flex whitespace-nowrap items-center h-10 px-4 font-medium text-center text-sm focus:outline-none hover:bg-gray-50 dark:hover:bg-gray-700 text-gray-700 dark:text-white border border-gray-300 dark:border-gray-500",
             {
                 "rounded-l-lg": index === 0,
                 "rounded-r-lg": index === options.length - 1,

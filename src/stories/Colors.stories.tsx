@@ -1,8 +1,8 @@
 import React from "react";
 import { Meta, StoryObj } from "@storybook/react";
-import { ColorBox } from "./ColorBox";
-import { colors } from "./data/colors";
-import { StoryLayout } from "./StoryLayout";
+import { ColorBox } from "../ColorBox";
+import { colors } from "../data/colors";
+import { StoryLayout } from "../StoryLayout";
 
 const meta: Meta<Props> = {
   title: "Colors",
