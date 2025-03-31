@@ -1,0 +1,100 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  darkMode: "class", // Ensure this is set
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/styles/**/*.css",
+    "./.storybook/**/*.{js,jsx,ts,tsx,mdx}" // Add Storybook directories
+  ],  theme: {
+    colors:{
+      "transparent": "transparent",
+      white:"#fff",
+      gray:{
+        25: "#FDFDFD",
+        50: "#FAFAFA",
+        100: "#F5F5F5",
+        200: "#E9EAEB",
+        300: "#D5D7DA",
+        400: "#A4A7AE",
+        500: "#717680",
+        600: "#535862",
+        700: "#414651",
+        800: "#252B37",
+        900: "#181D27",
+        950: "#0A0D12"
+      },
+      primary: {
+        25: "#F5FAFF",
+        50: "#EFF8FF",
+        100: "#D1E9FF",
+        200: "#B2DDFF",
+        300: "#84CAFF",
+        400: "#53B1FD",
+        500: "#2E90FA",
+        600: "#1570EF",
+        700: "#175CD3",
+        800: "#1849A9",
+        900: "#194185",
+      },
+      error: {
+        25: "#FFFBFA",
+        50: "#FEF3F2",
+        100: "#FEE4E2",
+        200: "#FECDCA",
+        300: "#FDA29B",
+        400: "#F97066",
+        500: "#F04438",
+        600: "#D92D20",
+        700: "#B42318",
+        800: "#912018",
+        900: "#7A271A",
+      },
+      warning: {
+        25: "#FFFCF5",
+        50: "#FFFAEB",
+        100: "#FEF0C7",
+        200: "#FEDF89",
+        300: "#FEC84B",
+        400: "#FDB022",
+        500: "#F79009",
+        600: "#DC6803",
+        700: "#B54708",
+        800: "#93370D",
+        900: "#7A2E0E",
+      },
+      success: {
+        25: "#F6FEF9",
+        50: "#ECFDF3",
+        100: "#D1FADF",
+        200: "#A6F4C5",
+        300: "#6CE9A6",
+        400: "#32D583",
+        500: "#12B76A",
+        600: "#039855",
+        700: "#027A48",
+        800: "#05603A",
+        900: "#054F31",
+      },
+    },
+    fontSize:{
+      xs: ["12px", "18px"],
+      sm: ["14px", "20px"],
+      md: ["16px", "24px"],
+      lg: ["18px", "28px"],
+      xl: ["20px", "30px"],
+
+      h6: ["24px", "32px"],
+      h5: ["30px", "38px"],
+      h4: ["36px", "44px"],
+      h3: ["48px", "60px"],
+      h2: ["60px", "72px"],
+      h1: ["72px", "90px"],
+    },
+    extend: {
+    },
+  },
+  variants: {
+    extend: {},
+  },
+}
+
