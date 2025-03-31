@@ -30,21 +30,21 @@ export const LabelButtonGroup: StoryObj<Props> = {
           <ButtonGroup
             options={options1}
             activeOption={activeItem1}
-            setActiveOption={(value) => setActiveItem1(value)}
+            setActiveOption={setActiveItem1}
           />
         </div>
         <div>
           <ButtonGroup
             options={options2}
             activeOption={activeItem2}
-            setActiveOption={(value) => setActiveItem2(value)}
+            setActiveOption={setActiveItem2}
           />
         </div>
         <div>
           <ButtonGroup
             options={options3}
             activeOption={activeView}
-            setActiveOption={(value) => setViewOption(value)}
+            setActiveOption={setViewOption}
           />
         </div>
       </StoryLayout>
