@@ -5,7 +5,7 @@ import { StoryLayout } from "../StoryLayout";
 import { options1, options2, options3 } from "../data/options";
 
 const meta: Meta<typeof ButtonGroup> = {
-  title: "ButtonGroup",
+  title: "Example/ButtonGroup",
   component: ButtonGroup,
   parameters: {
     layout: 'centered',

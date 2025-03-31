@@ -4,7 +4,7 @@ import { Typography, TypographyProps } from "../Typography";
 import { StoryLayout } from "../StoryLayout";
 
 const meta: Meta<typeof Typography> = {
-  title: "Typography",
+  title: "Example/Typography",
   component: Typography,
   parameters: {
     layout: 'centered',
