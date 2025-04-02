@@ -42,7 +42,7 @@ export const LeadingIconBadge:StoryObj<Props>  = {
 export const ImageIconBadge:StoryObj<Props>  = {
     args: {
         darkMode: false,
-        variant: "warning",
+        variant: "gray",
         size: "md",
         LeadingIcon: <img src={assets.NL} alt="nl" className="w-4 h-4" />
     },
