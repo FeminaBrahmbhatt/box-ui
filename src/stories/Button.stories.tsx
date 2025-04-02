@@ -51,10 +51,10 @@ export const Variants: Story = {
     return (
       <StoryLayout {...args} className="flex inline-flex flex-row space-x-2">
         <Button variant="primary">Primary</Button>
-        <Button variant="secondary">Primary</Button>
-        <Button variant="secondaryGray">Primary</Button>
-        <Button variant="tertiary">Primary</Button>
-        <Button variant="tertiaryGray">Primary</Button>
+        <Button variant="secondary">Secondary</Button>
+        <Button variant="secondaryGray">Secondary Gray</Button>
+        <Button variant="tertiary">Tertiary</Button>
+        <Button variant="tertiaryGray">Tertiary Gray</Button>
       </StoryLayout>
     );
   },
