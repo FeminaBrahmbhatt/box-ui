@@ -1,6 +1,6 @@
 export interface IOption {
-    value: string;
-    label: string | React.ReactNode;
+    value: string,
+    label: string | React.ReactNode,
 }
 export interface SelectProps{
     placeholder: string,
