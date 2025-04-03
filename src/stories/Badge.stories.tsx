@@ -1,7 +1,7 @@
 import React from 'react';
 import {BadgeProps} from '../@interfaces';
 import { Badge } from '../Badge';
-import {assets} from './assets'
+import {images} from '../data/images'
 import {Meta, StoryObj} from '@storybook/react';
 import { StoryLayout } from '../StoryLayout';
 import { FiArrowRight, FiStar } from 'react-icons/fi';
@@ -19,6 +19,12 @@ export default meta;
 
 interface Props extends BadgeProps {
     darkMode: boolean;
+}
+
+export const Default:StoryObj<Props> = {
+    args: {
+        darkMode:false
+    }
 }
 
 export const LeadingIconBadge:StoryObj<Props>  = {
@@ -44,7 +50,7 @@ export const ImageIconBadge:StoryObj<Props>  = {
         darkMode: false,
         variant: "gray",
         size: "md",
-        LeadingIcon: <img src={assets.NL} alt="nl" className="w-4 h-4" />
+        LeadingIcon: <img src={images.NL} alt="nl" className="w-4 h-4" />
     },
     render: (args) => {
         return (
