@@ -5,7 +5,7 @@ export interface TextInputProps {
     error?: string,
     label?: string,
     helperText?:string,
-    disabled: boolean,
+    disabled?: boolean,
     leadingText?: string;
     LeadingIcon?: React.ReactElement;
     TrailingIcon?: React.ReactElement;

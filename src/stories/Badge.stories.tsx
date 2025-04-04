@@ -23,7 +23,10 @@ interface Props extends BadgeProps {
 
 export const Default:StoryObj<Props> = {
     args: {
-        darkMode:false
+        darkMode: false,
+        variant: "success",
+        size: "md",
+        children:<span>Label</span>
     }
 }
 

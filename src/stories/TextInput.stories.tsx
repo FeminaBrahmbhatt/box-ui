@@ -4,6 +4,7 @@ import { Meta, StoryObj } from "@storybook/react";
 import { TextInput } from "../TextInput";
 import { StoryLayout } from "../StoryLayout";
 import { FiMail, FiHelpCircle, FiAlertCircle } from "react-icons/fi";
+
 const meta: Meta<typeof TextInput> = {
   title: "Example/TextInput",
   component: TextInput,
