@@ -24,16 +24,16 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "tsdx start",
-    "build": "NODE_ENV=production tsdx build",
-    "test": "tsdx test",
-    "eject": "tsdx eject",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
-    "storybook:build": "npx -p @storybook/react-webpack5 build-storybook -o storybook-static",
-    "storybook:deploy": "gh-pages -d storybook-static",
-    "build:css": "postcss ./src/styles/tailwind.css build -o css/tailwind.dist.css --minify"
-  },
+  "start": "tsdx start",
+  "build": "NODE_ENV=production tsdx build",
+  "test": "tsdx test",
+  "eject": "tsdx eject",
+  "storybook": "storybook dev -p 6006",
+  "build-storybook": "storybook build",
+  "storybook:build": "storybook build -o storybook-static",
+  "storybook:deploy": "gh-pages -d storybook-static",
+  "build:css": "postcss ./src/styles/tailwind.css build -o css/tailwind.dist.css --minify"
+},
   "eslintConfig": {
     "extends": [
       "react-app",
