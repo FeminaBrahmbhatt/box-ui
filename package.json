@@ -30,7 +30,7 @@
     "eject": "tsdx eject",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "storybook:build": "build-storybook -o storybook-static",
+    "storybook:build": "npx -p @storybook/react build-storybook -o storybook-static",
     "storybook:deploy": "gh-pages -d storybook-static",
     "build:css": "postcss ./src/styles/tailwind.css build -o css/tailwind.dist.css --minify"
   },
