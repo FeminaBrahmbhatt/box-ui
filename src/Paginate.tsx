@@ -1,24 +1,27 @@
-import React, { FC } from "react";
+import React from "react";
 import { PaginationProps } from "./@interfaces";
 import classNames from "classnames";
 import { Pagination } from "react-headless-pagination";
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
 
-export const Paginate: FC<PaginationProps> = ({
+export const Paginate = ({
   totalPages,
   page,
   isMobile,
   className,
   setPage,
-}) => {
+}: PaginationProps) => {
   const handlePageChange = (page: number) => {
     setPage(page);
   };
 
+  const ArrowLeft = FiArrowLeft as React.FC<any>;
+  const ArrowRight = FiArrowRight as React.FC<any>;
+
   if (isMobile) {
     return (
       <div className={classNames("flex w-full h-10 items-center", className)}>
-        <FiArrowLeft
+        <ArrowLeft
           size={20}
           className={classNames("mr-3 text-gray-500 dark:text-white", {
             "cursor-pointer": page !== 0,
@@ -33,7 +36,7 @@ export const Paginate: FC<PaginationProps> = ({
         <div className="flex justify-center flex-grow text-sm text-gray-700 select-none dark:text-white">
           {`Page ${page} of ${totalPages}`}
         </div>
-        <FiArrowRight
+        <ArrowRight
           size={20}
           className={classNames("ml-3 text-gray-500 dark:text-white", {
             "cursor-pointer": page !== totalPages - 1,
@@ -72,7 +75,7 @@ export const Paginate: FC<PaginationProps> = ({
           }
         )}
       >
-        <FiArrowLeft size={20} className={classNames("mr-3")} />
+        <ArrowLeft size={20} className={classNames("mr-3")} />
         Previous
       </Pagination.PrevButton>
       <div className="flex items-center justify-center flex-grow list-none">
@@ -92,7 +95,7 @@ export const Paginate: FC<PaginationProps> = ({
         )}
       >
         Next
-        <FiArrowRight size={20} className={classNames("ml-3")} />
+        <ArrowRight size={20} className={classNames("ml-3")} />
       </Pagination.NextButton>
     </Pagination>
   );

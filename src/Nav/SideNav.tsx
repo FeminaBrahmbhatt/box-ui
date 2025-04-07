@@ -1,4 +1,4 @@
-import React, {FC} from "react";
+import React from "react";
 import { SideNavProps, INavItem } from "../@interfaces";
 import classNames from "classnames";
 import { Typography } from "../Typography";
@@ -11,7 +11,7 @@ export const renderLogo = () => (
     <img src={images.logo} className="w-8 h-8 select-none" alt="logo" />
 );
 
-export const SideNav: FC<SideNavProps> = ({
+export const SideNav = ({
     className,
     navItemsTop,
     navItemsBottom,
@@ -19,7 +19,12 @@ export const SideNav: FC<SideNavProps> = ({
     email,
     open,
     setOpen,
-}) => {
+}: SideNavProps) => {
+
+
+  const Logout = FiLogOut as React.FC<any>;
+  const Search = FiSearch as React.FC<any>;
+
     const [searchString, setSearchString] = React.useState<string>("");
     const [activeNavItem, setActiveNavItem] = React.useState<string>("");
     const [activeSubNavItem, setActiveSubNavItem] = React.useState<string>("");
@@ -80,7 +85,7 @@ export const SideNav: FC<SideNavProps> = ({
                 value={searchString}
                 handleChange={handleSearch}
                 placeholder="Search"
-                LeadingIcon={<FiSearch />}
+                LeadingIcon={<Search />}
               />
             ) : (
               <div className="h-11" />
@@ -150,7 +155,7 @@ export const SideNav: FC<SideNavProps> = ({
                   </Typography>
                 </div>
     
-                <FiLogOut size={24} className="ml-6 text-gray-400 cursor-pointer" />
+                <Logout size={24} className="ml-6 text-gray-400 cursor-pointer" />
               </div>
             ) : null}
           </div>

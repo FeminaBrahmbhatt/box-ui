@@ -1,4 +1,4 @@
-import React, { FC, useState } from "react";
+import React, { useState } from "react";
 import { Meta, StoryObj } from "@storybook/react";
 import { ButtonGroupProps, ButtonGroup } from "../ButtonGroup";
 import { StoryLayout } from "../StoryLayout";

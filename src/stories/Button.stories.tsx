@@ -1,3 +1,4 @@
+import React from "react";
 import type { Meta, StoryObj } from "@storybook/react";
 import { Button } from "../Button";
 import { ButtonProps } from "../@interfaces";
@@ -84,7 +85,7 @@ export const TrailingIconButton: Story = {
     darkMode: false,
     children: "Button",
     TrailingIcon: <FiArrowRight />,
-  },
+  },  
 };
 
 export const LeadingIconButton: Story = {

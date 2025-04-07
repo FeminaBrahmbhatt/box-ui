@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import React from "react";
 import { IButtonItem } from "./@interfaces";
 import classNames from "classnames";
 
@@ -8,11 +8,11 @@ export interface ButtonGroupProps {
   setActiveOption: (activeOption: string) => void;
 }
 
-export const ButtonGroup: FC<ButtonGroupProps> = ({
+export const ButtonGroup = ({
   options,
   activeOption,
   setActiveOption,
-}) => {
+}: ButtonGroupProps) => {
   return (
     <div>
       {options.map((option, index) => (

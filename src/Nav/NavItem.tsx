@@ -17,6 +17,8 @@ export const NavItem:FC<NavItemProps> = ({
 }) => {
     const { setProps } = useIconProps();
 
+    const ArrowDown = FiChevronDown as React.FC<any>;
+
     return (
     <Popover key={item.label} className="relative">
     <PopoverButton as={React.Fragment}>
@@ -52,7 +54,7 @@ export const NavItem:FC<NavItemProps> = ({
             {item.label}
           </Typography>
           {item.subItems && item.subItems.length > 0 ? (
-            <FiChevronDown
+            <ArrowDown
               size={20}
               className={classNames(
                 "group-hover:text-primary-600 dark:group-hover:text-white transform duration-100 ease-out",

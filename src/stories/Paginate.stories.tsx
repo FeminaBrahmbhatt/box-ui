@@ -1,4 +1,4 @@
-import React, { FC, useState } from "react";
+import React, { useState } from "react";
 import { StoryLayout } from "../StoryLayout";
 import { Meta, StoryObj } from "@storybook/react";
 import { PaginationProps } from "../@interfaces";

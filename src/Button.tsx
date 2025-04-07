@@ -1,4 +1,4 @@
-import { FC, ReactElement, cloneElement, isValidElement } from "react";
+import React, { ReactElement, cloneElement, isValidElement } from "react";
 import {
   ButtonProps,
   ButtonVariant,
@@ -59,7 +59,7 @@ const buttonIconSizeClasses: Record<ButtonSize, string> = {
   "2xl": "btn-icon-2xl",
 };
 
-export const Button: FC<ButtonProps> = ({
+export const Button = ({
   children,
   className,
   variant = "primary",
@@ -69,7 +69,7 @@ export const Button: FC<ButtonProps> = ({
   TrailingIcon,
   IconOnly,
   ...buttonProps
-}) => {
+}: ButtonProps) => {
   const buttonVariantClassName = buttonVariantClasses[variant];
   const buttonIconSizeClassName = buttonIconSizeClasses[size];
 

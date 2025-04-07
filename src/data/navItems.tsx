@@ -11,18 +11,27 @@ import {
   FiMapPin,
 } from "react-icons/fi";
 
+const Home = FiHome as React.FC<any>;
+const Layers = FiLayers as React.FC<any>;
+const Settings = FiSettings as React.FC<any>;
+const Flag = FiFlag as React.FC<any>;
+const MapPin = FiMapPin as React.FC<any>;
+const CheckSquare = FiCheckSquare as React.FC<any>;
+const BarChart = FiBarChart2 as React.FC<any>;
+const ArrowLeft = FiArrowLeft as React.FC<any>;
+
 export const navItemsTop: INavItem[] = [
   {
     order: 0,
     path: "home",
     label: "Home",
-    icon: <FiHome />,
+    icon: <Home />,
   },
   {
     order: 1,
     path: "dashboard",
     label: "Dashboard",
-    icon: <FiBarChart2 />,
+    icon: <BarChart />,
     subItems: [
       {
         order: 0,
@@ -45,25 +54,25 @@ export const navItemsTop: INavItem[] = [
     order: 2,
     path: "projects",
     label: "Projects",
-    icon: <FiLayers />,
+    icon: <Layers />,
   },
   {
     order: 3,
     path: "tasks",
     label: "Tasks",
-    icon: <FiCheckSquare />,
+    icon: <CheckSquare />,
   },
   {
     order: 4,
     path: "reporting",
     label: "Reporting",
-    icon: <FiFlag />,
+    icon: <Flag />,
   },
   {
     order: 5,
     path: "rentals",
     label: "Rentals",
-    icon: <FiMapPin />,
+    icon: <MapPin />,
     subItems: [
       {
         order: 0,
@@ -89,12 +98,12 @@ export const navItemsBottom: INavItem[] = [
     order: 0,
     path: "settings",
     label: "Settings",
-    icon: <FiSettings />,
+    icon: <Settings />,
   },
   {
     order: 1,
     label: "Close Navbar",
-    icon: <FiArrowLeft />,
+    icon: <ArrowLeft />,
     toggleSidebar: true,
   },
 ];

@@ -22,6 +22,10 @@ export const Select: FC<SelectProps> = ({
   LeadingIcon,
   width,
 }) => {
+
+  const ArrowDown = FiChevronDown as React.FC<any>;
+  const Check = FiCheck as React.FC<any>;
+
   const setProps = (
     icon: ReactElement,
     iconSize: number,
@@ -57,7 +61,7 @@ export const Select: FC<SelectProps> = ({
                 </div>
               )}
               {selectedOption ? selectedOption.label : placeholder}
-              <FiChevronDown
+              <ArrowDown
                 size={20}
                 className={classNames(
                   "text-gray-500 dark:text-gray-300 transform duration-100 ease-out",
@@ -83,7 +87,7 @@ export const Select: FC<SelectProps> = ({
                         },
                       ))}>
                         <div className="flex items-center">{option.label}</div>
-                        {selected && <FiCheck className="ml-5 text-primary-600 dark:text-white" />}
+                        {selected && <Check className="ml-5 text-primary-600 dark:text-white" />}
                     </li>
                     )}
                     
