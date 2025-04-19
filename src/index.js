@@ -1,3 +1,4 @@
+import './styles/global.css';
 export * from "./Badge";
 export * from "./Button";
 export * from "./ButtonGroup";
@@ -12,4 +13,4 @@ export * from "./Nav/MobileNav";
 
 export * from "./@interfaces";
 export * from "./data";
-export * from "./data/images";
+export * from "./data/images"; // Adjust the path as necessary

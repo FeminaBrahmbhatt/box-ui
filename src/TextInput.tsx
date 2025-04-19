@@ -18,18 +18,21 @@ export const TextInput: FC<TextInputProps> = ({
   handleChange,
 }) => {
   const { setClassName } = useIconClassName();
+  const inputId = `textinput-${label?.toLowerCase().replace(/\s+/g, '-') || 'input'}`;
 
   return (
     <div>
       {label && (
-        <Typography
-          variant="sm"
-          customWeight="medium"
-          customColor="text-gray-700 dark:text-white"
-          className="mb-1.5"
-        >
-          {label}
-        </Typography>
+        <label htmlFor={inputId}>
+          <Typography
+            variant="sm"
+            customWeight="medium"
+            customColor="text-gray-700 dark:text-white"
+            className="mb-1.5"
+          >
+            {label}
+          </Typography>
+        </label>
       )}
       <div
         className={classNames("relative", { "flex items-center": leadingText })}
@@ -47,17 +50,18 @@ export const TextInput: FC<TextInputProps> = ({
             variant="sm"
             customWeight="regular"
             className={classNames(
-                "flex items-center h-11 text-lg text-gray-500 pl-3.5 pr-3 border border-r-0 rounded-l-lg border-gray-300 dark:border-gray-500",
-                {
-                  "bg-gray-50 dark:bg-gray-700": disabled,
-                  "dark:bg-gray-800": !disabled,
-                },
-              )}
+              "flex items-center h-11 text-lg text-gray-500 pl-3.5 pr-3 border border-r-0 rounded-l-lg border-gray-300 dark:border-gray-500",
+              {
+                "bg-gray-50 dark:bg-gray-700": disabled,
+                "dark:bg-gray-800": !disabled,
+              }
+            )}
           >
             {leadingText}
           </Typography>
         )}
         <input
+          id={inputId}
           type={type}
           value={value}
           placeholder={placeholder}
@@ -76,27 +80,19 @@ export const TextInput: FC<TextInputProps> = ({
                 error,
               "bg-white dark:bg-gray-800": !disabled,
               "bg-gray-50 dark:bg-gray-700": disabled,
-            },
+            }
           )}
         />
       </div>
       {error && (
-        <Typography
-          variant="sm"
-          customWeight="regular"
-          className="mt-1.5 text-error-500"
-        >
+        <label className="text-sm font-normal mt-1.5 text-error-500">
           {error}
-        </Typography>
+        </label>
       )}
       {helperText && (
-        <Typography
-          variant="sm"
-          customWeight="regular"
-          className="mt-1.5 text-gray-500"
-        >
+        <label className="text-sm font-normal mt-1.5 text-gray-500">
           {helperText}
-        </Typography>
+        </label>
       )}
     </div>
   );

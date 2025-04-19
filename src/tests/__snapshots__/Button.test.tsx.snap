@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`📘 Button Storybook Stories renders Default button 1`] = `
+<div>
+  <div
+    class="-m-4"
+  >
+    <div
+      class="flex inline-flex flex-row space-x-2 p-4"
+    >
+      <button
+        class="btn-base btn-md btn-primary btn-primary-hover btn-primary-focus shadow-grayDark"
+        type="button"
+      >
+        Primary
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`📘 Button Storybook Stories renders all button sizes 1`] = `
+<div>
+  <div
+    class="-m-4"
+  >
+    <div
+      class="flex inline-flex flex-row space-x-2 p-4"
+    >
+      <button
+        class="btn-base btn-sm btn-primary btn-primary-hover btn-primary-focus shadow-grayDark"
+        type="button"
+      >
+        sm
+      </button>
+      <button
+        class="btn-base btn-md btn-primary btn-primary-hover btn-primary-focus shadow-grayDark"
+        type="button"
+      >
+        md
+      </button>
+      <button
+        class="btn-base btn-lg btn-primary btn-primary-hover btn-primary-focus shadow-grayDark"
+        type="button"
+      >
+        lg
+      </button>
+      <button
+        class="btn-base btn-xl btn-primary btn-primary-hover btn-primary-focus shadow-grayDark"
+        type="button"
+      >
+        xl
+      </button>
+      <button
+        class="btn-base btn-2xl btn-primary btn-primary-hover btn-primary-focus shadow-grayDark"
+        type="button"
+      >
+        2xl
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`📘 Button Storybook Stories renders all button variants 1`] = `
+<div>
+  <div
+    class="-m-4"
+  >
+    <div
+      class="flex inline-flex flex-row space-x-2 p-4"
+    >
+      <button
+        class="btn-base btn-md btn-primary btn-primary-hover btn-primary-focus shadow-grayDark"
+        type="button"
+      >
+        Primary
+      </button>
+      <button
+        class="btn-base btn-md btn-secondary btn-secondary-hover btn-secondary-focus shadow-grayDark"
+        type="button"
+      >
+        Secondary
+      </button>
+      <button
+        class="btn-base btn-md btn-secondaryGray btn-secondaryGray-hover btn-secondaryGray-focus shadow-grayDark"
+        type="button"
+      >
+        Secondary Gray
+      </button>
+      <button
+        class="btn-base btn-md btn-tertiary btn-tertiary-hover btn-tertiary-focus shadow-grayDark"
+        type="button"
+      >
+        Tertiary
+      </button>
+      <button
+        class="btn-base btn-md btn-tertiaryGray btn-tertiaryGray-hover btn-tertiaryGray-focus shadow-grayDark"
+        type="button"
+      >
+        Tertiary Gray
+      </button>
+    </div>
+  </div>
+</div>
+`;

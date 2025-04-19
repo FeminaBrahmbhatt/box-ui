@@ -4,14 +4,12 @@ import { ColorBox } from "../ColorBox";
 import { colors } from "../data/colors";
 import { StoryLayout } from "../StoryLayout";
 
-const meta: Meta<Props> = {
+export default {
   title: "Colors",
   parameters: {
     controls: { expanded: true },
   },
-};
-
-export default meta;
+} as Meta;
 
 interface Props {
   darkMode: boolean;

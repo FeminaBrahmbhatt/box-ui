@@ -1,1 +1,1 @@
-{"version":3,"file":"Color.d.d.ts","sourceRoot":"","sources":["../src/@interfaces/Color.d.tsx"],"names":[],"mappings":"AAAA,MAAM,WAAW,MAAM;IACnB,OAAO,EAAE,MAAM,CAAC;IAChB,IAAI,EAAE,MAAM,CAAC;IACb,GAAG,EAAE,MAAM,CAAA;CACd"}
+{"version":3,"file":"Color.d.d.ts","sourceRoot":"","sources":["Color.d.tsx"],"names":[],"mappings":"AAAA,MAAM,WAAW,MAAM;IACnB,OAAO,EAAE,MAAM,CAAC;IAChB,IAAI,EAAE,MAAM,CAAC;IACb,GAAG,EAAE,MAAM,CAAA;CACd"}

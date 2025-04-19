@@ -4,18 +4,16 @@ import { Button } from "../Button";
 import { ButtonProps } from "../@interfaces";
 import { FiArrowLeft, FiArrowRight, FiStar } from "react-icons/fi";
 import { StoryLayout } from "../StoryLayout";
+import { IconWrapper } from "../utils/IconWrapper";
 
-const meta: Meta<typeof Button> = {
+export default{
   title: "Example/Button",
   component: Button,
   parameters: {
     layout: "centered",
   },
   tags: ["autodocs"],
-};
-
-export default meta;
-
+} as Meta;
 interface Props extends ButtonProps {
   darkMode: boolean;
 }
@@ -84,21 +82,36 @@ export const TrailingIconButton: Story = {
   args: {
     darkMode: false,
     children: "Button",
-    TrailingIcon: <FiArrowRight />,
+    TrailingIcon: <IconWrapper Icon={FiArrowRight} data-testid="trailingIcon"/>,
   },  
+  render: (args) => (
+    <StoryLayout {...args}>
+      <Button {...args} />
+    </StoryLayout>
+  ),
 };
 
 export const LeadingIconButton: Story = {
   args: {
     darkMode: false,
     children: "Button",
-    LeadingIcon: <FiArrowLeft />,
+    LeadingIcon: <IconWrapper Icon={FiArrowLeft} data-testid="LeadingIcon"/>,
   },
+  render: (args) => (
+    <StoryLayout {...args}>
+      <Button {...args} />
+    </StoryLayout>
+  ),
 };
 
 export const IconOnlyButton: Story = {
   args: {
     darkMode: false,
-    IconOnly: <FiStar />,
+    IconOnly: <IconWrapper Icon={FiStar} data-testid="iconOnly"/>,
   },
+  render: (args) => (
+    <StoryLayout {...args}>
+      <Button {...args} />
+    </StoryLayout>
+  ),
 };

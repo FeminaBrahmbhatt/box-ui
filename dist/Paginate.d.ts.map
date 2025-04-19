@@ -1,1 +1,1 @@
-{"version":3,"file":"Paginate.d.ts","sourceRoot":"","sources":["src/Paginate.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAC1B,OAAO,EAAE,eAAe,EAAE,MAAM,eAAe,CAAC;AAKhD,eAAO,MAAM,QAAQ,wDAMlB,eAAe,sBAyFjB,CAAC"}
+{"version":3,"file":"Paginate.d.ts","sourceRoot":"","sources":["Paginate.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAC1B,OAAO,EAAE,eAAe,EAAE,MAAM,eAAe,CAAC;AAKhD,eAAO,MAAM,QAAQ,wDAMlB,eAAe,sBA0FjB,CAAC"}

@@ -1,1 +1,1 @@
-{"version":3,"file":"useIconProps.d.ts","sourceRoot":"","sources":["../src/hooks/useIconProps.tsx"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAgC,MAAM,OAAO,CAAC;AAGnE,eAAO,MAAM,YAAY;qBAEf,YAAY,YACR,MAAM,mBACC,MAAM;CAW1B,CAAC"}
+{"version":3,"file":"useIconProps.d.ts","sourceRoot":"","sources":["useIconProps.tsx"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAgC,MAAM,OAAO,CAAC;AAGnE,eAAO,MAAM,YAAY;qBAEf,YAAY,YACR,MAAM,mBACC,MAAM;CAW1B,CAAC"}

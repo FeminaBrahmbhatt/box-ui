@@ -3,15 +3,13 @@ import { Meta, StoryObj } from "@storybook/react";
 import { Typography, TypographyProps } from "../Typography";
 import { StoryLayout } from "../StoryLayout";
 
-const meta: Meta<typeof Typography> = {
+export default {
   title: "Example/Typography",
   component: Typography,
   parameters: {
     layout: 'centered',
   },
-};
-
-export default meta;
+} as Meta;
 
 interface Props extends TypographyProps {
   darkMode: boolean;

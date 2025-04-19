@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`📘 Badge Storybook Stories renders Default badge 1`] = `
+<div>
+  <div
+    class="badge-base badge-md badge-success"
+  >
+    <span>
+      Label
+    </span>
+  </div>
+</div>
+`;

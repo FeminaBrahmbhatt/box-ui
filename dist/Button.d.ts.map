@@ -1,1 +1,1 @@
-{"version":3,"file":"Button.d.ts","sourceRoot":"","sources":["src/Button.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAqD,MAAM,OAAO,CAAC;AAC1E,OAAO,EACL,WAAW,EAIZ,MAAM,eAAe,CAAC;AAuDvB,eAAO,MAAM,MAAM,0GAUhB,WAAW,sBA4Db,CAAC"}
+{"version":3,"file":"Button.d.ts","sourceRoot":"","sources":["Button.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAqD,MAAM,OAAO,CAAC;AAC1E,OAAO,EACL,WAAW,EAIZ,MAAM,eAAe,CAAC;AAuDvB,eAAO,MAAM,MAAM,0GAUhB,WAAW,sBA4Db,CAAC"}

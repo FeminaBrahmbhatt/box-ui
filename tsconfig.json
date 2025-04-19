@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "esnext",
     "lib": [
       "dom",
       "dom.iterable",
       "esnext"
     ],
     "outDir": "dist",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -21,9 +21,12 @@
     "isolatedModules": true,
     "noEmit": true,
     "declaration": true,
-    "declarationMap": true,
+    "declarationMap": true
   },
   "include": [
-    "src"
+    "src",
+    "jest.config.js",
+    "tests/**/*.ts",
+    "tests/**/*.tsx"
   ]
 }

@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from "@storybook/react";
 import { Typography, TypographyProps } from "../Typography";
-declare const meta: Meta<typeof Typography>;
+export declare const meta: Meta<typeof Typography>;
 export default meta;
 interface Props extends TypographyProps {
     darkMode: boolean;

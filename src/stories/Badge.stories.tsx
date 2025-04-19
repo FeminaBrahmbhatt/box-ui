@@ -5,18 +5,16 @@ import {images} from '../data/images'
 import {Meta, StoryObj} from '@storybook/react';
 import { StoryLayout } from '../StoryLayout';
 import { FiArrowRight, FiStar } from 'react-icons/fi';
+import { IconWrapper } from '../utils/IconWrapper';
 
-const meta:Meta<typeof Badge> = {
+export default {
     title: 'Example/Badge',
     component: Badge,
     parameters: {
         layout: 'centered',
     },
     tags: ['autodocs'],
-}
-
-export default meta;
-
+} as Meta;
 interface Props extends BadgeProps {
     darkMode: boolean;
 }
@@ -35,7 +33,7 @@ export const LeadingIconBadge:StoryObj<Props>  = {
         darkMode: false,
         variant: "success",
         size: "md",
-        LeadingIcon:< FiStar/>
+        LeadingIcon: <IconWrapper Icon={FiStar} data-testid="leadingIcon"/>
     },
     render: (args) => {
         return (
@@ -53,7 +51,7 @@ export const ImageIconBadge:StoryObj<Props>  = {
         darkMode: false,
         variant: "gray",
         size: "md",
-        LeadingIcon: <img src={images.NL} alt="nl" className="w-4 h-4" />
+        LeadingIcon: <img src={images.NL} alt="nl" className="w-4 h-4" data-testid="iconOnly" />
     },
     render: (args) => {
         return (
@@ -71,7 +69,7 @@ export const TrailingIconBadge:StoryObj<Props>  = {
         darkMode: false,
         variant: "primary",
         size: "md",
-        TrailingIcon: < FiArrowRight/>
+        TrailingIcon: <IconWrapper Icon={FiArrowRight} data-testid="trailingIcon"/>
     },
     render: (args) => {
         return (

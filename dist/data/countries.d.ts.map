@@ -1,1 +1,1 @@
-{"version":3,"file":"countries.d.ts","sourceRoot":"","sources":["../src/data/countries.tsx"],"names":[],"mappings":"AACA,OAAO,EAAE,OAAO,EAAE,MAAM,gBAAgB,CAAC;AA2CzC,eAAO,MAAM,SAAS,EAAE,OAAO,EAY5B,CAAC"}
+{"version":3,"file":"countries.d.ts","sourceRoot":"","sources":["countries.tsx"],"names":[],"mappings":"AACA,OAAO,EAAE,OAAO,EAAE,MAAM,gBAAgB,CAAC;AA2CzC,eAAO,MAAM,SAAS,EAAE,OAAO,EAY5B,CAAC"}

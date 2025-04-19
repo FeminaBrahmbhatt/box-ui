@@ -1,0 +1,580 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`📘 Pagination Storybook Stories renders DesktopPagination component 1`] = `
+<div>
+  <div
+    class="-m-4"
+  >
+    <div
+      class="p-4"
+    >
+      <div
+        class="flex w-full items-center h-10 text-sm select-none"
+      >
+        <button
+          class="h-10 font-medium flex items-center mr-2 text-gray-500 dark:text-white hover:text-gray-600 dark:hover:text-gray-200 focus:outline-none opacity-50"
+          disabled=""
+          tabindex="-1"
+        >
+          <svg
+            class="mr-3"
+            fill="none"
+            height="20"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="19"
+              x2="5"
+              y1="12"
+              y2="12"
+            />
+            <polyline
+              points="12 19 5 12 12 5"
+            />
+          </svg>
+          Previous
+        </button>
+        <div
+          class="flex items-center justify-center flex-grow list-none"
+        >
+          <li>
+            <a
+              class="flex items-center justify-center h-10 w-10 rounded-full cursor-pointer font-medium bg-primary-50 dark:bg-opacity-0 text-primary-600 dark:text-white"
+              tabindex="0"
+            >
+              1
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex items-center justify-center h-10 w-10 rounded-full cursor-pointer font-medium text-gray-500"
+              tabindex="0"
+            >
+              2
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex items-center justify-center h-10 w-10 rounded-full cursor-pointer font-medium text-gray-500"
+              tabindex="0"
+            >
+              3
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex items-center justify-center h-10 w-10 rounded-full cursor-pointer font-medium text-gray-500"
+              tabindex="0"
+            >
+              4
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex items-center justify-center h-10 w-10 rounded-full cursor-pointer font-medium text-gray-500"
+              tabindex="0"
+            >
+              5
+            </a>
+          </li>
+          <li
+            class="w-10 px-0.5 text-center dark:text-gray-500"
+          >
+            ...
+          </li>
+          <li>
+            <a
+              class="flex items-center justify-center h-10 w-10 rounded-full cursor-pointer font-medium text-gray-500"
+              tabindex="0"
+            >
+              9
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex items-center justify-center h-10 w-10 rounded-full cursor-pointer font-medium text-gray-500"
+              tabindex="0"
+            >
+              10
+            </a>
+          </li>
+        </div>
+        <button
+          class="h-10 font-medium flex items-center mr-2 text-gray-500 dark:text-white hover:text-gray-600 dark:hover:text-gray-200 focus:outline-none cursor-pointer"
+          tabindex="0"
+        >
+          Next
+          <svg
+            class="ml-3"
+            fill="none"
+            height="20"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="5"
+              x2="19"
+              y1="12"
+              y2="12"
+            />
+            <polyline
+              points="12 5 19 12 12 19"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`📘 Pagination Storybook Stories renders DesktopPagination in dark mode 1`] = `
+<div>
+  <div
+    class="dark bg-gray-900 -m-4"
+  >
+    <div
+      class="p-4"
+    >
+      <div
+        class="flex w-full items-center h-10 text-sm select-none"
+      >
+        <button
+          class="h-10 font-medium flex items-center mr-2 text-gray-500 dark:text-white hover:text-gray-600 dark:hover:text-gray-200 focus:outline-none opacity-50"
+          disabled=""
+          tabindex="-1"
+        >
+          <svg
+            class="mr-3"
+            fill="none"
+            height="20"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="19"
+              x2="5"
+              y1="12"
+              y2="12"
+            />
+            <polyline
+              points="12 19 5 12 12 5"
+            />
+          </svg>
+          Previous
+        </button>
+        <div
+          class="flex items-center justify-center flex-grow list-none"
+        >
+          <li>
+            <a
+              class="flex items-center justify-center h-10 w-10 rounded-full cursor-pointer font-medium bg-primary-50 dark:bg-opacity-0 text-primary-600 dark:text-white"
+              tabindex="0"
+            >
+              1
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex items-center justify-center h-10 w-10 rounded-full cursor-pointer font-medium text-gray-500"
+              tabindex="0"
+            >
+              2
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex items-center justify-center h-10 w-10 rounded-full cursor-pointer font-medium text-gray-500"
+              tabindex="0"
+            >
+              3
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex items-center justify-center h-10 w-10 rounded-full cursor-pointer font-medium text-gray-500"
+              tabindex="0"
+            >
+              4
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex items-center justify-center h-10 w-10 rounded-full cursor-pointer font-medium text-gray-500"
+              tabindex="0"
+            >
+              5
+            </a>
+          </li>
+        </div>
+        <button
+          class="h-10 font-medium flex items-center mr-2 text-gray-500 dark:text-white hover:text-gray-600 dark:hover:text-gray-200 focus:outline-none cursor-pointer"
+          tabindex="0"
+        >
+          Next
+          <svg
+            class="ml-3"
+            fill="none"
+            height="20"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="5"
+              x2="19"
+              y1="12"
+              y2="12"
+            />
+            <polyline
+              points="12 5 19 12 12 19"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`📘 Pagination Storybook Stories renders DesktopPagination with total pages 1`] = `
+<div>
+  <div
+    class="-m-4"
+  >
+    <div
+      class="p-4"
+    >
+      <div
+        class="flex w-full items-center h-10 text-sm select-none"
+      >
+        <button
+          class="h-10 font-medium flex items-center mr-2 text-gray-500 dark:text-white hover:text-gray-600 dark:hover:text-gray-200 focus:outline-none opacity-50"
+          disabled=""
+          tabindex="-1"
+        >
+          <svg
+            class="mr-3"
+            fill="none"
+            height="20"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="19"
+              x2="5"
+              y1="12"
+              y2="12"
+            />
+            <polyline
+              points="12 19 5 12 12 5"
+            />
+          </svg>
+          Previous
+        </button>
+        <div
+          class="flex items-center justify-center flex-grow list-none"
+        >
+          <li>
+            <a
+              class="flex items-center justify-center h-10 w-10 rounded-full cursor-pointer font-medium bg-primary-50 dark:bg-opacity-0 text-primary-600 dark:text-white"
+              tabindex="0"
+            >
+              1
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex items-center justify-center h-10 w-10 rounded-full cursor-pointer font-medium text-gray-500"
+              tabindex="0"
+            >
+              2
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex items-center justify-center h-10 w-10 rounded-full cursor-pointer font-medium text-gray-500"
+              tabindex="0"
+            >
+              3
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex items-center justify-center h-10 w-10 rounded-full cursor-pointer font-medium text-gray-500"
+              tabindex="0"
+            >
+              4
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex items-center justify-center h-10 w-10 rounded-full cursor-pointer font-medium text-gray-500"
+              tabindex="0"
+            >
+              5
+            </a>
+          </li>
+        </div>
+        <button
+          class="h-10 font-medium flex items-center mr-2 text-gray-500 dark:text-white hover:text-gray-600 dark:hover:text-gray-200 focus:outline-none cursor-pointer"
+          tabindex="0"
+        >
+          Next
+          <svg
+            class="ml-3"
+            fill="none"
+            height="20"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="5"
+              x2="19"
+              y1="12"
+              y2="12"
+            />
+            <polyline
+              points="12 5 19 12 12 19"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`📘 Pagination Storybook Stories renders MobilePagination component 1`] = `
+<div>
+  <div
+    class="-m-4"
+  >
+    <div
+      class="p-4"
+    >
+      <div
+        class="flex w-full h-10 items-center"
+      >
+        <svg
+          class="mr-3 text-gray-500 dark:text-white opacity-50"
+          data-testid="prevBtn"
+          fill="none"
+          height="20"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line
+            x1="19"
+            x2="5"
+            y1="12"
+            y2="12"
+          />
+          <polyline
+            points="12 19 5 12 12 5"
+          />
+        </svg>
+        <div
+          class="flex justify-center flex-grow text-sm text-gray-700 select-none dark:text-white"
+        >
+          Page 0 of 10
+        </div>
+        <svg
+          class="ml-3 text-gray-500 dark:text-white cursor-pointer"
+          data-testid="nextBtn"
+          fill="none"
+          height="20"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line
+            x1="5"
+            x2="19"
+            y1="12"
+            y2="12"
+          />
+          <polyline
+            points="12 5 19 12 12 19"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`📘 Pagination Storybook Stories renders MobilePagination in dark mode 1`] = `
+<div>
+  <div
+    class="dark bg-gray-900 -m-4"
+  >
+    <div
+      class="p-4"
+    >
+      <div
+        class="flex w-full h-10 items-center"
+      >
+        <svg
+          class="mr-3 text-gray-500 dark:text-white opacity-50"
+          data-testid="prevBtn"
+          fill="none"
+          height="20"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line
+            x1="19"
+            x2="5"
+            y1="12"
+            y2="12"
+          />
+          <polyline
+            points="12 19 5 12 12 5"
+          />
+        </svg>
+        <div
+          class="flex justify-center flex-grow text-sm text-gray-700 select-none dark:text-white"
+        >
+          Page 0 of 5
+        </div>
+        <svg
+          class="ml-3 text-gray-500 dark:text-white cursor-pointer"
+          data-testid="nextBtn"
+          fill="none"
+          height="20"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line
+            x1="5"
+            x2="19"
+            y1="12"
+            y2="12"
+          />
+          <polyline
+            points="12 5 19 12 12 19"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`📘 Pagination Storybook Stories renders MobilePagination with page information 1`] = `
+<div>
+  <div
+    class="-m-4"
+  >
+    <div
+      class="p-4"
+    >
+      <div
+        class="flex w-full h-10 items-center"
+      >
+        <svg
+          class="mr-3 text-gray-500 dark:text-white opacity-50"
+          data-testid="prevBtn"
+          fill="none"
+          height="20"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line
+            x1="19"
+            x2="5"
+            y1="12"
+            y2="12"
+          />
+          <polyline
+            points="12 19 5 12 12 5"
+          />
+        </svg>
+        <div
+          class="flex justify-center flex-grow text-sm text-gray-700 select-none dark:text-white"
+        >
+          Page 0 of 5
+        </div>
+        <svg
+          class="ml-3 text-gray-500 dark:text-white cursor-pointer"
+          data-testid="nextBtn"
+          fill="none"
+          height="20"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line
+            x1="5"
+            x2="19"
+            y1="12"
+            y2="12"
+          />
+          <polyline
+            points="12 5 19 12 12 19"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;

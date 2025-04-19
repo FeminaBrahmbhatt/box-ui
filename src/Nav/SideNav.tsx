@@ -55,6 +55,7 @@ export const SideNav = ({
     
     return (
         <div
+        data-testid= "side-nav"
           className={classNames(
             "py-6 flex flex-col flex-grow bg-white dark:bg-gray-900 transform ease-out duration-100 overflow-y-auto xs:overflow-y-visible",
             {

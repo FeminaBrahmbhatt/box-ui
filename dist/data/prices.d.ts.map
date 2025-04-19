@@ -1,1 +1,1 @@
-{"version":3,"file":"prices.d.ts","sourceRoot":"","sources":["../src/data/prices.tsx"],"names":[],"mappings":"AAAA,OAAO,EAAE,OAAO,EAAE,MAAM,gBAAgB,CAAC;AAEzC,eAAO,MAAM,MAAM,EAAE,OAAO,EAiC3B,CAAC"}
+{"version":3,"file":"prices.d.ts","sourceRoot":"","sources":["prices.tsx"],"names":[],"mappings":"AAAA,OAAO,EAAE,OAAO,EAAE,MAAM,gBAAgB,CAAC;AAEzC,eAAO,MAAM,MAAM,EAAE,OAAO,EAiC3B,CAAC"}

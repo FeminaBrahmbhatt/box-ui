@@ -22,6 +22,7 @@ export const Paginate = ({
     return (
       <div className={classNames("flex w-full h-10 items-center", className)}>
         <ArrowLeft
+          data-testid="prevBtn"
           size={20}
           className={classNames("mr-3 text-gray-500 dark:text-white", {
             "cursor-pointer": page !== 0,
@@ -37,6 +38,7 @@ export const Paginate = ({
           {`Page ${page} of ${totalPages}`}
         </div>
         <ArrowRight
+          data-testid="nextBtn"
           size={20}
           className={classNames("ml-3 text-gray-500 dark:text-white", {
             "cursor-pointer": page !== totalPages - 1,

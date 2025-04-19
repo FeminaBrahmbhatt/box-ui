@@ -222,7 +222,8 @@ const Paginate = _ref => {
     className: classNames("h-10 font-medium flex items-center mr-2 text-gray-500 dark:text-white hover:text-gray-600 dark:hover:text-gray-200 focus:outline-none", {
       "cursor-pointer": page !== 0,
       "opacity-50": page === 0
-    })
+    }),
+    "aria-label": "Previous"
   }, /*#__PURE__*/React__default.createElement(ArrowLeft, {
     size: 20,
     className: classNames("mr-3")
@@ -278,7 +279,8 @@ const Select = _ref => {
         "text-gray-500 dark:text-gray-300": !selectedOption
       }, width)
     }, LeadingIcon && (/*#__PURE__*/React__default.createElement("div", {
-      className: "w-5 h-5 mr-2 overflow-hidden"
+      className: "w-5 h-5 mr-2 overflow-hidden",
+      "data-testid": "leading-icon"
     }, setProps(LeadingIcon, 20, classNames("text-gray-400")))), selectedOption ? selectedOption.label : placeholder, /*#__PURE__*/React__default.createElement(ArrowDown, {
       size: 20,
       className: classNames("text-gray-500 dark:text-gray-300 transform duration-100 ease-out", {
@@ -378,12 +380,15 @@ const TextInput = _ref => {
   const {
     setClassName
   } = useIconClassName();
-  return /*#__PURE__*/React__default.createElement("div", null, label && (/*#__PURE__*/React__default.createElement(Typography, {
+  const inputId = `textinput-${(label === null || label === void 0 ? void 0 : label.toLowerCase().replace(/\s+/g, '-')) || 'input'}`;
+  return /*#__PURE__*/React__default.createElement("div", null, label && (/*#__PURE__*/React__default.createElement("label", {
+    htmlFor: inputId
+  }, /*#__PURE__*/React__default.createElement(Typography, {
     variant: "sm",
     customWeight: "medium",
     customColor: "text-gray-700 dark:text-white",
     className: "mb-1.5"
-  }, label)), /*#__PURE__*/React__default.createElement("div", {
+  }, label))), /*#__PURE__*/React__default.createElement("div", {
     className: classNames("relative", {
       "flex items-center": leadingText
     })
@@ -400,6 +405,7 @@ const TextInput = _ref => {
       "dark:bg-gray-800": !disabled
     })
   }, leadingText)), /*#__PURE__*/React__default.createElement("input", {
+    id: inputId,
     type: type,
     value: value,
     placeholder: placeholder,
@@ -415,14 +421,10 @@ const TextInput = _ref => {
       "bg-white dark:bg-gray-800": !disabled,
       "bg-gray-50 dark:bg-gray-700": disabled
     })
-  })), error && (/*#__PURE__*/React__default.createElement(Typography, {
-    variant: "sm",
-    customWeight: "regular",
-    className: "mt-1.5 text-error-500"
-  }, error)), helperText && (/*#__PURE__*/React__default.createElement(Typography, {
-    variant: "sm",
-    customWeight: "regular",
-    className: "mt-1.5 text-gray-500"
+  })), error && (/*#__PURE__*/React__default.createElement("label", {
+    className: "text-sm font-normal mt-1.5 text-error-500"
+  }, error)), helperText && (/*#__PURE__*/React__default.createElement("label", {
+    className: "text-sm font-normal mt-1.5 text-gray-500"
   }, helperText)));
 };
 

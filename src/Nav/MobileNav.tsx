@@ -12,6 +12,7 @@ export const MobileNavbar: FC<MobileNavProps> = ({ open, toggleOpen }) => (
        Box UI
     </Typography>
     <svg
+      role="button"
       width="32"
       height="32"
       viewBox="0 0 32 32"
@@ -22,6 +23,7 @@ export const MobileNavbar: FC<MobileNavProps> = ({ open, toggleOpen }) => (
           "opacity-0": open,
         },
       )}
+      data-testid= "mobile-nav-toggle"
       onClick={toggleOpen}
     >
       <path

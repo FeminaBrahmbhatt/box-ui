@@ -1,1 +1,1 @@
-{"version":3,"file":"ColorBox.d.ts","sourceRoot":"","sources":["src/ColorBox.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAC1B,OAAO,EAAE,MAAM,EAAE,MAAM,eAAe,CAAC;AAEvC,eAAO,MAAM,QAAQ,2BAA4B,MAAM,sBAWtD,CAAC"}
+{"version":3,"file":"ColorBox.d.ts","sourceRoot":"","sources":["ColorBox.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAC1B,OAAO,EAAE,MAAM,EAAE,MAAM,eAAe,CAAC;AAEvC,eAAO,MAAM,QAAQ,2BAA4B,MAAM,sBAWtD,CAAC"}
