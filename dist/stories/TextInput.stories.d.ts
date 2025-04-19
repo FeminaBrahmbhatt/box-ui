@@ -1,8 +1,7 @@
 import { TextInputProps } from "../@interfaces";
-import { Meta, StoryObj } from "@storybook/react";
-import { TextInput } from "../TextInput";
-declare const meta: Meta<typeof TextInput>;
-export default meta;
+import { StoryObj } from "@storybook/react";
+declare const _default: import("@storybook/types").ComponentAnnotations<import("@storybook/react/dist/types-0fc72a6d").R, import("@storybook/types").Args>;
+export default _default;
 interface Props extends TextInputProps {
     darkMode: boolean;
 }

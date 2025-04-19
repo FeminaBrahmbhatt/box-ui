@@ -4,7 +4,7 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
     "./src/styles/**/*.css",
-    "./.storybook/**/*.{js,jsx,ts,tsx,mdx}"
+    "./.storybook/**/*.{js,jsx,ts,tsx,mdx}",
   ],  theme: {
     colors:{
       "transparent": "transparent",

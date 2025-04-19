@@ -1,8 +1,7 @@
-import { Meta, StoryObj } from "@storybook/react";
+import { StoryObj } from "@storybook/react";
 import { PaginationProps } from "../@interfaces";
-import { Paginate } from "../Paginate";
-declare const meta: Meta<typeof Paginate>;
-export default meta;
+declare const _default: import("@storybook/types").ComponentAnnotations<import("@storybook/react/dist/types-0fc72a6d").R, import("@storybook/types").Args>;
+export default _default;
 interface Props extends PaginationProps {
     darkMode: boolean;
 }

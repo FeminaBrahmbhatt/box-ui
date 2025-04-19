@@ -1,8 +1,7 @@
 import { BadgeProps } from '../@interfaces';
-import { Badge } from '../Badge';
-import { Meta, StoryObj } from '@storybook/react';
-declare const meta: Meta<typeof Badge>;
-export default meta;
+import { StoryObj } from '@storybook/react';
+declare const _default: import("@storybook/types").ComponentAnnotations<import("@storybook/react/dist/types-0fc72a6d").R, import("@storybook/types").Args>;
+export default _default;
 interface Props extends BadgeProps {
     darkMode: boolean;
 }

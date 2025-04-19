@@ -184,6 +184,7 @@ const Paginate = _ref => {
     return /*#__PURE__*/React__default.createElement("div", {
       className: classNames("flex w-full h-10 items-center", className)
     }, /*#__PURE__*/React__default.createElement(ArrowLeft, {
+      "data-testid": "prevBtn",
       size: 20,
       className: classNames("mr-3 text-gray-500 dark:text-white", {
         "cursor-pointer": page !== 0,
@@ -197,6 +198,7 @@ const Paginate = _ref => {
     }), /*#__PURE__*/React__default.createElement("div", {
       className: "flex justify-center flex-grow text-sm text-gray-700 select-none dark:text-white"
     }, `Page ${page} of ${totalPages}`), /*#__PURE__*/React__default.createElement(ArrowRight, {
+      "data-testid": "nextBtn",
       size: 20,
       className: classNames("ml-3 text-gray-500 dark:text-white", {
         "cursor-pointer": page !== totalPages - 1,
@@ -222,8 +224,7 @@ const Paginate = _ref => {
     className: classNames("h-10 font-medium flex items-center mr-2 text-gray-500 dark:text-white hover:text-gray-600 dark:hover:text-gray-200 focus:outline-none", {
       "cursor-pointer": page !== 0,
       "opacity-50": page === 0
-    }),
-    "aria-label": "Previous"
+    })
   }, /*#__PURE__*/React__default.createElement(ArrowLeft, {
     size: 20,
     className: classNames("mr-3")
@@ -599,6 +600,7 @@ const SideNav = _ref => {
     }
   };
   return /*#__PURE__*/React__default.createElement("div", {
+    "data-testid": "side-nav",
     className: classNames("py-6 flex flex-col flex-grow bg-white dark:bg-gray-900 transform ease-out duration-100 overflow-y-auto xs:overflow-y-visible", {
       "w-80": open,
       "w-24": !open,
@@ -682,6 +684,7 @@ const MobileNavbar = _ref => {
     customWeight: "medium",
     className: "select-none"
   }, "Box UI"), /*#__PURE__*/React__default.createElement("svg", {
+    role: "button",
     width: "32",
     height: "32",
     viewBox: "0 0 32 32",
@@ -689,6 +692,7 @@ const MobileNavbar = _ref => {
     className: classNames("text-gray-500 transition-all duration-100 ease-out cursor-pointer stroke-current hover:text-gray-900 dark:text-white dark:hover:text-gray-200", {
       "opacity-0": open
     }),
+    "data-testid": "mobile-nav-toggle",
     onClick: toggleOpen
   }, /*#__PURE__*/React__default.createElement("path", {
     d: "M4 16H22.6667M4 8H28M4 24H28",

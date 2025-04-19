@@ -1,8 +1,7 @@
-import { Meta, StoryObj } from "@storybook/react";
-import { Select } from "../Select";
+import { StoryObj } from "@storybook/react";
 import { SelectProps } from "../@interfaces";
-declare const meta: Meta<typeof Select>;
-export default meta;
+declare const _default: import("@storybook/types").ComponentAnnotations<import("@storybook/react/dist/types-0fc72a6d").R, import("@storybook/types").Args>;
+export default _default;
 interface Props extends SelectProps {
     darkMode: false;
 }

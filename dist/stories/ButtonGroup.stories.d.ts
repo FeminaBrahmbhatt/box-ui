@@ -1,7 +1,7 @@
-import { Meta, StoryObj } from "@storybook/react";
-import { ButtonGroupProps, ButtonGroup } from "../ButtonGroup";
-declare const meta: Meta<typeof ButtonGroup>;
-export default meta;
+import { StoryObj } from "@storybook/react";
+import { ButtonGroupProps } from "../ButtonGroup";
+declare const _default: import("@storybook/types").ComponentAnnotations<import("@storybook/react/dist/types-0fc72a6d").R, import("@storybook/types").Args>;
+export default _default;
 interface Props extends ButtonGroupProps {
     darkMode: boolean;
 }

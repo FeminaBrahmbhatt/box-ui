@@ -7,7 +7,7 @@
       "esnext"
     ],
     "outDir": "dist",
-    "jsx": "react-jsx",
+    "jsx": "react",
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,

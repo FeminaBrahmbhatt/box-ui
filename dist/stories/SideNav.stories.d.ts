@@ -1,8 +1,7 @@
-import { Meta, StoryObj } from "@storybook/react";
+import { StoryObj } from "@storybook/react";
 import { SideNavProps } from "../@interfaces";
-import { SideNav } from "../Nav/SideNav";
-declare const meta: Meta<typeof SideNav>;
-export default meta;
+declare const _default: import("@storybook/types").ComponentAnnotations<import("@storybook/react/dist/types-0fc72a6d").R, import("@storybook/types").Args>;
+export default _default;
 interface Props extends SideNavProps {
     darkMode: boolean;
 }
