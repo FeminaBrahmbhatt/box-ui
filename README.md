@@ -1,46 +1,79 @@
-# Getting Started with Create React App
+# 📦 **BoxUI** — Beautiful. Reusable. Fast.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A sleek and accessible collection of React + TypeScript UI components built for rapid product development. Customize, compose, and launch in style. 🚀
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Installation
 
-### `npm start`
+Get started with **BoxUI** in seconds:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+npm install @feminab/box-ui
+# or
+yarn add @feminab/box-ui
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+📘 Live Storybook
+Explore all components, props, and interactive examples:
+👉 https://boxui.netlify.app
 
-### `npm test`
+🧩 Components Available
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧩 Components Available
 
-### `npm run build`
+| Component        | Description                                 |
+|------------------|---------------------------------------------|
+| 🏷️ `Badge`        | Highlight tags or statuses                 |
+| 🔘 `Button`       | Primary, secondary, and icon buttons       |
+| 🎛️ `ButtonGroup`  | Button group wrapper                      |
+| 🌈 `Colors`       | Theme and color palettes                  |
+| 📱 `MobileNav`    | Mobile responsive navbar                  |
+| 📄 `Paginate`     | Pagination controls                       |
+| 🔽 `Select`       | Dropdown select inputs                    |
+| 📚 `SideNav`      | Vertical side navigation                  |
+| ✏️ `TextInput`    | Input fields with labels & error states   |
+| 🔤 `Typography`   | Typography helpers and scales             |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📦 Usage Example
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Once installed, you can start using components like this:
 
-### `npm run eject`
+### ✅ Basic Button Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```tsx
+import { Button } from '@feminab/box-ui';
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+export default function App() {
+  return (
+    <Button variant="primary" onClick={() => alert('Clicked!')}>
+      Click Me
+    </Button>
+  );
+}
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 💻 Local Development
+Want to contribute or tweak locally?
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Clone the repo and install dependencies
+npm install
 
-## Learn More
+# Run Storybook locally
+npm run storybook
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🧠 Author
+Built with ❤️ by Femina Brahmbhatt
+🐾 Featuring components crafted with accessibility and reusability in mind.
+
+##🪄 License
+MIT © Femina Brahmbhatt
+
+Let me know if you'd like:
+
+- NPM version/license/shield badges at the top  
+- Preview GIFs or images for components  
+- How to contribute or roadmap section  
+- Or a "Why BoxUI?" section to pitch its strengths!
+
+Happy shipping! 🚀
