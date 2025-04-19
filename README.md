@@ -16,8 +16,7 @@ yarn add @feminab/box-ui
 📘 Live Storybook
 Explore all components, props, and interactive examples:
 👉 https://boxui.netlify.app
-
-🧩 Components Available
+```
 
 ## 🧩 Components Available
 
@@ -51,6 +50,7 @@ export default function App() {
     </Button>
   );
 }
+```
 
 ## 💻 Local Development
 Want to contribute or tweak locally?
