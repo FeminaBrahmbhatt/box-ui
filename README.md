@@ -1,3 +1,6 @@
+[![CI](https://github.com/FeminaBrahmbhatt/box-ui/actions/workflows/ci.yml/badge.svg)](https://github.com/FeminaBrahmbhatt/box-ui/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/github/FeminaBrahmbhatt/box-ui/branch/master/graph/badge.svg?token=JGSQSKUAHW)](https://codecov.io/github/FeminaBrahmbhatt/box-ui)
+
 # 📦 **BoxUI** — Beautiful. Reusable. Fast.
 
 A sleek and accessible collection of React + TypeScript UI components built for rapid product development. Customize, compose, and launch in style. 🚀
