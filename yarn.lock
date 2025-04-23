@@ -2637,6 +2637,14 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@storybook/addon-a11y@^7.6.20":
+  version "7.6.20"
+  resolved "https://registry.npmjs.org/@storybook/addon-a11y/-/addon-a11y-7.6.20.tgz"
+  integrity sha512-t19O2KW+8NF8mdxAZdubpe0s/3x7z5cl4LdyiNQgYxcUGjhjAUD+C3UvEUsRxG71ZAID/VC8SX+G2HX5TENGHA==
+  dependencies:
+    "@storybook/addon-highlight" "7.6.20"
+    axe-core "^4.2.0"
+
 "@storybook/addon-actions@7.6.20":
   version "7.6.20"
   resolved "https://registry.npmjs.org/@storybook/addon-actions/-/addon-actions-7.6.20.tgz"
@@ -4864,7 +4872,7 @@ aws4@^1.8.0:
   resolved "https://registry.npmjs.org/aws4/-/aws4-1.13.2.tgz"
   integrity sha512-lHe62zvbTB5eEABUVi/AwVh0ZKY9rMMDhmm+eeyuuUQbQ3+J+fONVQOZyj+DdrvD4BY33uYniyRJ4UJIaSKAfw==
 
-axe-core@^4.10.0:
+axe-core@^4.10.0, axe-core@^4.2.0:
   version "4.10.3"
   resolved "https://registry.npmjs.org/axe-core/-/axe-core-4.10.3.tgz"
   integrity sha512-Xm7bpRXnDSX2YE2YFfBk2FnF0ep6tmG7xPh8iHee8MIcrgq762Nkce856dYtJYLkuIoYZvGfTs/PbZhideTcEg==
